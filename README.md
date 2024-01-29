@@ -1,5 +1,8 @@
-
-![Alt text](image.png)
+<p align="center">
+    <img width="640" alt="github-readme-terminal" src="image.png">
+    <br>
+    <b>✨ Make your text even more beautiful with this ASCII Art Generator 🚀</b>
+</p>
 
 # 💻 GitHub ASCII Text Generator 🎞️
 
