@@ -1,11 +1,5 @@
 import pyfiglet
 
-def list_fonts():
-        all_fonts = pyfiglet.Figlet().getFonts()
-        print("Available Fonts:")
-        for font in all_fonts:
-            print(font)
-
 class FigletASCIIArtGenerator:
     def __init__(self, font='standard'):
         self.figlet = pyfiglet.Figlet(font=font)
@@ -27,11 +21,9 @@ def main():
     figlet_ascii_art_generator = FigletASCIIArtGenerator(default_font)
 
     while True:
-        user_input = input("Enter your text or 'font' to know all the font or 'change_font' to set a new font (type 'exit' to quit): ")
+        user_input = input("Enter your text or 'change_font' to set a new font (type 'exit' to quit): ")
         if user_input.lower() == 'exit':
             break
-        elif user_input.lower() == 'font':
-            list_fonts()
         elif user_input.lower() == 'change_font':
             new_font = input("Enter the font name: ")
             figlet_ascii_art_generator.change_font(new_font)
