@@ -31,3 +31,12 @@ Then to start use the generator, you had to launch `main.py` with a terminal :
 ```bash
 python main.py
 ```
+So now you will have a quick message like this:
+```bash
+Enter your text or 'font' to know all the font or 'change_ font' to set a new font (type 'exit' to quit): 
+```
+
+You have 3 options:
+- Enter your the text you want to generate ASCII Art from.
+- Type `font` to know all the avalable font.
+- Type `change_font` then enter the font you want to use.
