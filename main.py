@@ -15,10 +15,11 @@ class FigletASCIIArtGenerator:
         print(ascii_art)
 
     def change_font(self, font):
-        try:
-            self.figlet.setFont(font)
+        available_fonts = self.figlet.getFonts()
+        if font in available_fonts:
+            self.figlet = pyfiglet.Figlet(font=font)
             print(f"Font changed to '{font}'")
-        except pyfiglet.FigletError:
+        else:
             print(f"Font '{font}' not found. Keeping the current font.")
 
 def main():
