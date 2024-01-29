@@ -25,7 +25,7 @@ git clone https://github.com/X0Rayane/ASCII_Art_Generator-Rayane_GUEROU-CDOF4
 ## 🪧 Usage
 
 Make sure you are on the right directory, the one which you have clone the repository (.../ASCII_Art_Generator-Rayane_GUEROU-CDOF4), 
-Then to start use the generator, you had to launch `main.py` with a terminal :
+\nThen to start use the generator, you had to launch `main.py` with a terminal :
 
 ```bash
 python main.py
