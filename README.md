@@ -1,4 +1,6 @@
 
+![Alt text](image.png)
+
 # 💻 GitHub ASCII Text Generator 🎞️
 
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/github-readme-terminal)
