@@ -27,7 +27,7 @@ def main():
     figlet_ascii_art_generator = FigletASCIIArtGenerator(default_font)
 
     while True:
-        user_input = input("Enter your text or 'font' to know all the font or 'change_ font' to set a new font (type 'exit' to quit): ")
+        user_input = input("Enter your text or 'font' to know all the font or 'change_font' to set a new font (type 'exit' to quit): ")
         if user_input.lower() == 'exit':
             break
         elif user_input.lower() == 'font':

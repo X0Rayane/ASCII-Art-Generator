@@ -33,7 +33,7 @@ python main.py
 ```
 So now you will have a quick message like this:
 ```bash
-Enter your text or 'font' to know all the font or 'change_ font' to set a new font (type 'exit' to quit): 
+Enter your text or 'font' to know all the font or 'change_font' to set a new font (type 'exit' to quit): 
 ```
 
 You have 3 options:
