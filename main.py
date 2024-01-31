@@ -30,7 +30,7 @@ def main():
             new_font = input("Enter the font name: ")
             figlet_ascii_art_generator.change_font(new_font)
         else:
-            color = input("Choose the color of your ascii text :\n BLACK, RED, GREEN, YELLOW, BLUE, MAGENTA, CYAN, WHITE")
+            color = input("Choose the color of your ascii text :\nBLACK, RED, GREEN, YELLOW, BLUE, MAGENTA, CYAN, WHITE: ")
             color = color.upper()
             if(color == 'BLACK'):
                 print(Fore.BLACK)
